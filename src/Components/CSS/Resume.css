@@ -1,0 +1,79 @@
+.resume {
+  padding: 100px 50px 0;
+}
+
+.resume-heading {
+  margin: 0 0 50px 100px;
+  font-size: 20px;
+}
+
+.resume-cont {
+  display: flex;
+  padding: 50px 100px;
+  border-bottom: 1px solid #33333346;
+}
+
+.resume-cont1 {
+  flex-basis: 40%;
+  justify-content: flex-start;
+}
+
+.resume-cont2 {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.resume-details-cont {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.resume-date {
+  flex-basis: 20%;
+}
+
+.resume-date p {
+  color: #333333;
+  font-size: 15px;
+}
+
+.resume-details {
+  flex-basis: 80%;
+}
+
+.resume-details p {
+  color: #333333;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.resume-details .workplace {
+  color: #333333;
+  font-size: 16px;
+}
+
+.resume-details h3 {
+  margin: 5px 0 10px;
+  font-size: 18px;
+}
+
+.resume-details ul {
+  padding-left: 20px;
+}
+
+.resume-details ul li {
+  color: #333333;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.cont {
+  border-bottom: none;
+}
+
+
+
+
+
