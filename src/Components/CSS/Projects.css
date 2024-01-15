@@ -78,7 +78,17 @@
     font-size: 14px;
   }
 
+  .projects-cont1 h2 {
+    width: 300px;
+  }
+
   .projects-cont2 {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-cont2 img {
+    width: 100%;
   }
 }

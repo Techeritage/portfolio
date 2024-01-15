@@ -83,6 +83,7 @@
 .subut-sub textarea {
   resize: none;
   margin-top: 5px;
+  padding: 15px;
 }
 
 .subut-but {
@@ -99,4 +100,48 @@
 
 .subut-but h3 {
   font-size: 20px;
+}
+
+@media (max-width: 767px)  {
+  .contact {
+    margin: 30px 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .contact-grid-info input {
+    margin-top: 5px;
+    padding: 10px 10px;
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  .contact-cont1 {
+    padding: 0 20px;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .contact-cont2 {
+    padding: 20px 20px;
+    border-top: 1px solid #33333346;
+  }
+
+  .contact-cont2 textarea {
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+  }
+
+  .subut-but {
+    flex-basis: 40%;
+  }
+
 }
