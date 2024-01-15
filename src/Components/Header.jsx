@@ -11,7 +11,7 @@ const Header = () => {
       <div className='Header-cont1'>
         <div className='color-ball'></div>
         <div className='head-link'>
-          <Link to="/portfolio">
+          <Link to="/">
             <h2>Emmanuel Fatomoye</h2>
           </Link>
           <p>Front-end Web Developer</p>
@@ -21,17 +21,17 @@ const Header = () => {
       <div className='Header-cont2'>
         <ul>
           <li className={location.pathname === '/portfolio/resume' ? 'active' : ''}>
-            <Link to="/portfolio/resume">
+            <Link to="/resume">
               Resume
             </Link>
           </li>
           <li className={location.pathname === '/portfolio/projects' ? 'active' : ''}>
-            <Link to="/portfolio/projects">
+            <Link to="/projects">
               Projects
             </Link>
           </li>
           <li className={location.pathname === '/portfolio/contact' ? 'active' : ''}>
-            <Link to="/portfolio/contact">
+            <Link to="/contact">
               Contact
             </Link>
           </li>

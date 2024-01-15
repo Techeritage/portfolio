@@ -23,19 +23,19 @@ const Home = () => {
               </p>
           </div>
           <div className='home-buttons'>
-            <Link to="/portfolio/resume">
+            <Link to="/resume">
               <div className='resume-btn btn'>
                 <h3>Resume</h3> 
               </div>
             </Link>
           
-            <Link to="/portfolio/projects">
+            <Link to="/projects">
               <div className='projects-btn btn'>
                <h3>Projects</h3> 
               </div>
             </Link>
             
-            <Link to="/portfolio/contact">
+            <Link to="/contact">
               <div className='contact-btn btn'>
                 <h3>Contact</h3>
               </div>
