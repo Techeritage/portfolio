@@ -42,6 +42,7 @@
 
 .home-buttons {
   display: flex;
+  justify-content: space-between;
   margin-top: 30px;
 }
 
@@ -148,7 +149,6 @@ a {
   .btn {
     max-width: 100px;
     max-height: 100px;
-    margin: 0;
   }
 }
 
@@ -156,6 +156,5 @@ a {
   .btn {
     max-width: 120px;
     max-height: 120px;
-    margin: 0;
   }
 }

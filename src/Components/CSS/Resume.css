@@ -73,6 +73,33 @@
   border-bottom: none;
 }
 
+@media (max-width: 767px) {
+  .resume {
+    padding: 30px 0;
+  }
+
+  .resume-heading {
+    margin: 0 20px;
+    font-size: 18px;
+  }
+
+  .resume-cont {
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+
+  .resume-cont1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 150px;
+  }
+  
+  .resume-details-cont {
+    flex-direction: column;
+  }
+  
+}
+
 
 
 
