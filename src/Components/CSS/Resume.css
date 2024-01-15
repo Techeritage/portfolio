@@ -97,6 +97,26 @@
   .resume-details-cont {
     flex-direction: column;
   }
+
+  .resume-details p {
+    font-size: 14px;
+  }
+
+  .resume-details h3 {
+    margin: 0 0 10px;
+  }
+
+  .resume-date {
+    margin-bottom: 5px;
+  }
+
+  .resume-details ul {
+    margin-left: 20px;
+  }
+
+  .resume-details ul li {
+    font-size: 14px;
+  }
   
 }
 
