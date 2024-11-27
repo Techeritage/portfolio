@@ -38,7 +38,7 @@ const WorkExperience = () => {
             <h3>Frontend Web Developer</h3>
             <p>
               As a Frontend Web Developer at Zumbox Technologies, I worked on
-              building various projects, including <b>admin dashboards</b>,
+              building various projects, including <b>admin dashboards</b>,{" "}
               <b>eCommerce platforms</b>, and <b>business websites</b>. I
               collaborated with both frontend and backend teams to deliver
               high-quality, responsive, and user-friendly web applications.

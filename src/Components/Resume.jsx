@@ -3,7 +3,7 @@ import "../Components/CSS/Resume.css";
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import Skills from "./Skills";
-import Arrow from '../assets/arrow.svg';
+import Arrow from "../assets/arrow.svg";
 
 const Resume = () => {
   return (
@@ -24,8 +24,8 @@ const Resume = () => {
         </div>
       </div>
       <WorkExperience />
-      <Education />
       <Skills />
+      <Education />
     </div>
   );
 };
