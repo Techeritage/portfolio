@@ -19,7 +19,6 @@
 .projects-cont1 h2 {
   margin-bottom: 20px;
   color: #333333;
-
 }
 
 .projects-cont1 p {
@@ -33,14 +32,12 @@
   margin-bottom: 20px;
 }
 
-.p-head span {
+.p-head .heading {
   font-weight: 600;
-  font-size: 16px;
 }
 
 .p-head {
-  margin-bottom: 0;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .p-head a {
@@ -53,22 +50,23 @@
 
 .projects-cont2 img {
   width: 450px;
-  height: 350px;
+  height: 300px;
   object-fit: cover;
   object-position: top;
-  border-radius: 20px 20px 0 0;
-  box-shadow: 0px 0px 10px #33333331;
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px #33333315;
 }
 
 @media (max-width: 767px) {
   .projects {
-    margin: 30px 20px;
-    padding: 0;
+    padding: 30px 3%;
   }
 
   .projects-cont {
     padding: 50px 0;
+    gap: 20px;
     flex-direction: column;
+    border-bottom: 1px solid #33333346;
   }
 
   .projects-heading {
@@ -78,10 +76,13 @@
 
   .projects-cont1 p {
     font-size: 14px;
+    line-height: 20px;
+    width: 90%;
   }
 
   .projects-cont1 h2 {
-    width: 300px;
+    width: 70%;
+    margin-bottom: 10px;
   }
 
   .projects-cont2 {
