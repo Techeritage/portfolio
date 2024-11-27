@@ -1,13 +1,41 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../Components/CSS/Header.css';
 
 const Header = () => {
 
   const location = useLocation();
+  const elementRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
+    };
+
+    const callback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          console.log('Element is in view');
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(callback, options);
+
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <div className='Header'>
+    <div className={`Header ${isVisible ? 'visible' : ''}`} ref={elementRef}>
       <div className='Header-cont1'>
         <div className='color-ball'></div>
         <div className='head-link'>

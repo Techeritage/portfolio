@@ -18,6 +18,8 @@
 
 .projects-cont1 h2 {
   margin-bottom: 20px;
+  color: #333333;
+
 }
 
 .projects-cont1 p {
@@ -42,7 +44,7 @@
 }
 
 .p-head a {
-  color: #0000FF;
+  color: #ff8c00;
 }
 
 .projects-cont2 {
