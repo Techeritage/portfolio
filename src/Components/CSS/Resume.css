@@ -7,6 +7,21 @@
   font-size: 20px;
 }
 
+.github-link {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.github-link img {
+  transform: rotate(-45deg);
+}
+
+.github-link a {
+  color: #ff8c00;
+}
+
 .resume-cont {
   display: flex;
   padding: 50px 100px;
@@ -93,7 +108,7 @@
     font-size: 18px;
     width: 150px;
   }
-  
+
   .resume-details-cont {
     flex-direction: column;
   }
@@ -117,10 +132,4 @@
   .resume-details ul li {
     font-size: 14px;
   }
-  
 }
-
-
-
-
-

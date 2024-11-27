@@ -51,11 +51,13 @@ const Home = () => {
               creating sleek, user-friendly interfaces that are both visually
               appealing and highly functional.
               <br />
+              <br />
               With a solid foundation in front-end frameworks and tools, as well
               as experience with <b>TypeScript</b> and <b>MongoDB</b>, I build
               dynamic and scalable web applications. My focus is on delivering
               seamless user experiences that align with both client goals and
               user needs.
+              <br />
               <br />
               Whether it's <i>crafting pixel-perfect designs</i>,{" "}
               <i>optimizing performance</i>, or <i>solving complex problems</i>,
