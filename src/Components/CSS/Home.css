@@ -31,7 +31,7 @@
 }
 
 .home-heading h1 {
-  font-family: 'Cookie', cursive;
+  font-family: "Cookie", cursive;
   font-size: 100px;
   font-weight: 500;
 }
@@ -75,11 +75,11 @@ a {
 }
 
 .resume-btn {
-  background: #4169E1;
+  background: #4169e1;
 }
 
 .projects-btn {
-  background:#2ecc71;
+  background: #2ecc71;
   animation-delay: 0.5s;
 }
 
@@ -112,7 +112,13 @@ a {
   .mobile img {
     width: 100%;
     height: fit-content;
-    
+  }
+
+  .home-cont1 img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
   }
 
   .home-cont2 {
@@ -142,7 +148,7 @@ a {
   }
 
   .home-heading h1 {
-    font-family: 'Cookie', cursive;
+    font-family: "Cookie", cursive;
     font-size: 80px;
     font-weight: 500;
   }
