@@ -1,4 +1,5 @@
 import React from "react";
+import Arrow from "../assets/arrow.svg";
 
 const ProjectCard = ({ project }) => {
   const {
@@ -23,16 +24,23 @@ const ProjectCard = ({ project }) => {
             </span>
           ))}
         </p>
-        <p className="p-head">
+        <p className="p-head myFlex">
           <span className="heading">Code Repository:</span>{" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            {projectRepoLink}
+          <a
+            className="myFlex"
+            href={projectRepoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github - {projectTitle}
+            <img src={Arrow} alt="arrow icon" width={15} />
           </a>
         </p>
-        <p className="p-head">
+        <p className="p-head myFlex">
           <span className="heading">Link to Live Project:</span>{" "}
-          <a href={projectLiveLink} target="_blank" rel="noopener noreferrer">
-            {projectLiveLink}
+          <a className="myFlex" href={projectLiveLink} target="_blank" rel="noopener noreferrer">
+            {projectTitle}
+            <img src={Arrow} alt="arrow icon" width={15} />
           </a>
         </p>
       </div>

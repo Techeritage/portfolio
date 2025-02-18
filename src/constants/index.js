@@ -1,4 +1,5 @@
 const Images = {
+  proconnect: "https://techeritage.github.io/portfolio/proconnect.PNG",
   lbk: "https://techeritage.github.io/portfolio/myhomeetal.PNG",
   store45: "https://techeritage.github.io/portfolio/store45.PNG",
   champion: "https://techeritage.github.io/portfolio/champioo.PNG",
@@ -6,6 +7,15 @@ const Images = {
 };
 
 export const ProjectsList = [
+  {
+    projectTitle: "Proconnect",
+    projectDescription:
+      "Proconnect is a recruitment agency platform that connects job seekers with employers. It provides a seamless experience for users to submit CVs, browse job listings, and stay updated with industry insights through a blog. An admin dashboard enables efficient management of job postings, blog content, and other platform features",
+    projectImage: Images.proconnect, // You can replace with your actual image URL
+    projectLiveLink: "https://proconnect-eight.vercel.app/", // Replace with the actual live URL
+    projectRepoLink: "https://github.com/Techeritage/proconnect", // Replace with the actual GitHub repo link
+    projectStacks: ["Next.js", "Tailwind CSS", "Mongo DB", "Shadcn"],
+  },
   {
     projectTitle: "MyHomeEtal",
     projectDescription:
@@ -57,4 +67,10 @@ export const ProjectsList = [
     projectRepoLink: "https://github.com/Techeritage/techfam", // Replace with the actual GitHub repo link
     projectStacks: ["React.js", "JavaScript"],
   }, */
+];
+
+export const navLinks = [
+  { title: "Resume", link: "/resume" },
+  { title: "Project", link: "/projects" },
+  { title: "Contact", link: "/contact" },
 ];
